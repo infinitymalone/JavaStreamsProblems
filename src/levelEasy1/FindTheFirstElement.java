@@ -1,8 +1,7 @@
-package LevelSuperEasy;
+package levelEasy1;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class FindTheFirstElement {
 

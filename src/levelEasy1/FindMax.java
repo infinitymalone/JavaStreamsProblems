@@ -1,8 +1,6 @@
-package LevelSuperEasy;
+package levelEasy1;
 
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 
 public class FindMax {
     /**

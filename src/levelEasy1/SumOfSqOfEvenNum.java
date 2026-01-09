@@ -1,6 +1,5 @@
-package LevelSuperEasy;
+package levelEasy1;
 
-import java.util.Optional;
 import java.util.stream.Stream;
 
 public class SumOfSqOfEvenNum {

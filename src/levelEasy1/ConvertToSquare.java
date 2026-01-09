@@ -1,4 +1,4 @@
-package LevelSuperEasy;
+package levelEasy1;
 
 import java.util.List;
 import java.util.stream.Collectors;
