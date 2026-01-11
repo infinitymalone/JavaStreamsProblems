@@ -18,9 +18,9 @@ public class Employees {
         this.department = department;
     }
 
-    private String name;
-    private double salary;
-    private int id;
+    private final String name;
+    private final double salary;
+    private final int id;
     private String department;
 
     public int getId() {
