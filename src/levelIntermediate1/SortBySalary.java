@@ -2,9 +2,7 @@ package levelIntermediate1;
 
 import utils.Employees;
 
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class SortBySalary {
@@ -27,6 +25,10 @@ public class SortBySalary {
 
         // Descending
         List<Employees> collectD = employees.stream().sorted(Comparator.comparing(Employees::getSalary).reversed()).collect(Collectors.toList());
+
+        // fetch Salary above 50,000
+        List<Employees> collect = employees.stream().filter(x -> x.getSalary() > 50000).collect(Collectors.toList());
+        System.out.println(collect);
 
         System.out.println(collectA);
         System.out.println(collectD);
