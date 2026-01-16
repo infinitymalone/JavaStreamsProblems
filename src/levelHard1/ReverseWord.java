@@ -1,14 +1,13 @@
 package levelHard1;
 
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class ReverseWord {
     /**
      * Reverse each word in a string
      */
-    public static void rev(){
+    public static void rev() {
         String input = "Streams Demo";
 
         List<StringBuilder> collect = Arrays.stream(input.replaceAll("[^a-z A-Z\\s]", "").split(" "))
